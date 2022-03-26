@@ -24,7 +24,10 @@ const Shop = () => {
         const newChart = [products];
         setSuggest(newChart);
     }
-    
+    const removeChart = () =>{
+        setChart([]);
+        setSuggest([]);
+    }
 
  return (
     
@@ -47,6 +50,7 @@ const Shop = () => {
               product={products}
               suggest={suggest}
               suggestProduct={suggestProduct}
+              removeChart={removeChart}
              ></Chart>      
           
             </div>

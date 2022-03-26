@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Chart = ({chart,suggestProduct,suggest,product}) => {
+const Chart = ({chart,suggestProduct,suggest,product,removeChart}) => {
   
     
     return (
@@ -22,7 +22,8 @@ const Chart = ({chart,suggestProduct,suggest,product}) => {
                  }
                   </div>
                  <div>
-                     <button onClick={ () =>suggestProduct(product)}>Random suggesstion</button>
+                     <button onClick={ () =>suggestProduct(product)}>Random Pick</button>
+                     <button onClick={ () =>removeChart()}>Delete All</button>
                  </div>
            
             
