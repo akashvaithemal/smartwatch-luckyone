@@ -16,11 +16,17 @@ background-color: rgb(59, 59, 58);
 border-radius: 10px;
 color: aliceblue;
 width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
-.btn-chart :hover{
-    transform: scale(1.5);
+.btn-chart .btn-txt{
+    margin-right: 5px;
 }
+/* .btn-chart :hover{
+    transform: scale(1.5);
+} */
 .product-name{
     font-weight: 500;
     font-size: large;
