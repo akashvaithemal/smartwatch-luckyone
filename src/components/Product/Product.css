@@ -1,8 +1,7 @@
 .product{
     
     width: 300px;
-   
-    border: 5px solid aliceblue;
+    border:solid  2px rgb(238, 233, 224) ;
     border-radius: 8px;
     position: relative;
 }
@@ -21,4 +20,12 @@ width: 100%;
 }
 .btn-chart :hover{
     transform: scale(1.5);
+}
+.product-name{
+    font-weight: 500;
+    font-size: large;
+}
+.product-price{
+    font-weight: 400;
+    font-size: medium;
 }

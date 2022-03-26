@@ -1,0 +1,12 @@
+.question{
+    background-color: rgb(31, 32, 32);
+    color: aliceblue;
+}
+.answer{
+font-size: medium;
+font-weight: 400;
+    
+}
+.question-section{
+    width: 100%;
+}

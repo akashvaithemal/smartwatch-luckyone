@@ -6,12 +6,12 @@ const Chart = ({chart,suggestProduct,suggest,product,removeChart}) => {
     
     return (
         <div className='main-chart'>
-            <h2>Order Summery</h2>
+            <h2 className='chart-heading'>Order Summery</h2>
             <div className='chart-suggest'>
                 {
                     chart.map(items => <div className='chart-example' key={items.id}>
                     <img src={items.picture}   alt="" /> 
-                    <p>{items.name}</p> 
+                    <p className='item-name'>{items.name}</p> 
                     </div>)
                  }
            

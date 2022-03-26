@@ -14,7 +14,7 @@ nav img{
 }
 @media screen and (max-width:900px) {
     .header{
-        
-        width: fit-content;
+         
+        width: 50%;
     }
 }

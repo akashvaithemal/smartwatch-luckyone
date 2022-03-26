@@ -13,7 +13,7 @@ const Product = ({product,handleAddToChart}) => {
            <img src={picture} alt=""></img>
            <div>
                <p className='product-name'>{name}</p>
-               <p>Price:{price}Tk</p>
+               <p className='product-price'>Price:{price}Tk</p>
            </div>
            <button onClick={ () =>handleAddToChart(product)} className='btn-chart'>
                <p>Add to chart</p>
