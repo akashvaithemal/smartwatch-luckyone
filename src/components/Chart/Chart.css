@@ -1,0 +1,32 @@
+.chart-example img{
+    border-radius: 0px;
+  width: 70px;
+}
+.chart-example{
+    display: flex;
+    justify-content: space-between;
+}
+.suggest-example {
+    padding: 10px;
+    border-radius: 8px;
+}
+.suggest-example img{
+    border-radius: 20px;
+    width: 150px;
+}
+.btn-suggestion{
+ width: 55%;
+ padding: 10px;
+ border-radius: 8px;
+ margin-bottom: 10px;
+
+}
+.btn-again{
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;   
+}
+.two-button :hover{
+    background-color:  rgb(59, 59, 58);
+    color: aliceblue;
+}

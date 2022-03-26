@@ -12,3 +12,13 @@
     border-radius: 8px;
     margin: 7px;
 }
+.btn-chart{
+background-color: rgb(59, 59, 58);
+border-radius: 10px;
+color: aliceblue;
+width: 100%;
+
+}
+.btn-chart :hover{
+    transform: scale(1.5);
+}
