@@ -1,0 +1,14 @@
+.header{
+    height: 80px;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: aliceblue;
+    font-size: 13px;
+    
+}
+nav img{
+    width: 50px;
+}
