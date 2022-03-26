@@ -7,11 +7,7 @@ const Header = () => {
     return (
         <nav className='header'>
             <img src={logo} alt='' />
-            
-        <div>
-         
-           <h1>Smart Watch Zone</h1>
-        </div>
+         <h1>Smart Watch Zone</h1>
         </nav>
     );
 };
